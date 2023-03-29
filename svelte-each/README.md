@@ -43,7 +43,7 @@ let colors =[ <br/>
    </ul>
 
 ```
-### Fallback || Default Value for Black <code>Hex in Black </code>
+### Fallback || Default Value 
 <p>If there is no hex value it would be Purple by Default</p>
 
 ```bash
@@ -53,5 +53,31 @@ let colors =[ <br/>
     {/each}
    </ul>
    
+```
+
+### Index in Each
+<p>index is assign below</p>
+
+```bash
+   <ul>
+    {#each colors as { name, hex ='purple' }, index}
+        <li style="color:{hex};" >{name} - {index}</li>
+    {/each}
+   </ul> 
+
+```
+
+### If Array is Empty show something 
+<code>:else in each</code>
+[Demo Code](https://svelte.dev/repl/775cfd00668440908c9ec1309febd77b?version=3.55.0)
+
+```bash
+   <ul>
+    {#each colors as { name, hex ='purple' }, index}
+        <li style="color:{hex};" >{name} - {index}</li>
+    {:else}
+        <li>This List is Empty</li>
+    {/each}
+   </ul> 
 ```
 
