@@ -2,16 +2,16 @@
 
 ## Syntax : 
 ```bash
-    {#each array as item}
+    {/#each array as item}
       <-- Code -->
     {/each}
 ```
 ### Let Consider Example : 
 let colors =[
-    {name:'red', hex:'#f00'},
-    {name :'green', hex:'#0f0'},
-    {name :'blue', hex:'#00f'},
-    {name :'yellow', hex:'#ff0'},
+    {name:'red', hex:'#f00'}, \n
+    {name :'green', hex:'#0f0'}, \n
+    {name :'blue', hex:'#00f'}, \n
+    {name :'yellow', hex:'#ff0'}, \n
 ]
 
 ```bash
@@ -22,7 +22,7 @@ let colors =[
    </ul>
 ```
 
-#### Name with Color
+### Name with Color
 ```bash
    <ul>
     {#each colors as color}
@@ -31,7 +31,7 @@ let colors =[
    </ul>
 ```
 
-#### Destructure the color as name & hex
+### Destructure the color as name & hex
 ```bash
    <ul>
     {#each colors as { name, hex }}
