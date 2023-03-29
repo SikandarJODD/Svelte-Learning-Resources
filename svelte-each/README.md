@@ -13,9 +13,10 @@ let colors =[ <br/>
       {name :'green', hex:'#0f0'}, 
       {name :'blue', hex:'#00f'}, 
       {name :'yellow', hex:'#ff0'}, 
+      {name : 'purple'}
 ]
 ```
-
+### Each Name is Printed
 ```bash
    <ul>
     {#each colors as color}
@@ -40,4 +41,16 @@ let colors =[ <br/>
         <li style="color:{hex};" >{name}</li>
     {/each}
    </ul>
+
 ```
+### Fallback || Default Value for Black <code>Hex in Black </code>
+<p>If there is no hex value it would be Purple by Default</p>
+```bash
+   <ul>
+    {#each colors as { name, hex ='purple' }}
+        <li style="color:{hex};" >{name}</li>
+    {/each}
+   </ul>
+   
+```
+
