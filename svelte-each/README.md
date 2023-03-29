@@ -45,6 +45,7 @@ let colors =[ <br/>
 ```
 ### Fallback || Default Value for Black <code>Hex in Black </code>
 <p>If there is no hex value it would be Purple by Default</p>
+
 ```bash
    <ul>
     {#each colors as { name, hex ='purple' }}
