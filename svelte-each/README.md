@@ -7,11 +7,11 @@
     {/each}
 ```
 ### Let Consider Example : 
-let colors =[
-    {name:'red', hex:'#f00'}, <br />
-    {name :'green', hex:'#0f0'}, <br />
-    {name :'blue', hex:'#00f'}, <br />
-    {name :'yellow', hex:'#ff0'}, <br />
+let colors =[ <br/>
+      {name:'red', hex:'#f00'}, <br />
+      {name :'green', hex:'#0f0'}, <br />
+      {name :'blue', hex:'#00f'}, <br />
+      {name :'yellow', hex:'#ff0'}, <br />
 ]
 
 ```bash
