@@ -7,12 +7,14 @@
     {/each}
 ```
 ### Let Consider Example : 
+```
 let colors =[ <br/>
-      {name:'red', hex:'#f00'}, <br />
-      {name :'green', hex:'#0f0'}, <br />
-      {name :'blue', hex:'#00f'}, <br />
-      {name :'yellow', hex:'#ff0'}, <br />
+      {name:'red', hex:'#f00'}, 
+      {name :'green', hex:'#0f0'}, 
+      {name :'blue', hex:'#00f'}, 
+      {name :'yellow', hex:'#ff0'}, 
 ]
+```
 
 ```bash
    <ul>
